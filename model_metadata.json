@@ -1,0 +1,46 @@
+{
+  "target": "utilization_rate",
+  "features": [
+    "sessions_count",
+    "energy_kwh_total",
+    "hour",
+    "day_of_week",
+    "month",
+    "is_weekend",
+    "is_peak_hour",
+    "utilization_lag_1h",
+    "utilization_lag_2h",
+    "utilization_lag_24h",
+    "energy_lag_1h",
+    "energy_lag_24h",
+    "utilization_rolling_24h",
+    "sessions_rolling_24h"
+  ],
+  "best_model": "gradient_boosting",
+  "metrics": [
+    {
+      "model": "gradient_boosting",
+      "MAE": 0.0063,
+      "RMSE": 0.0189,
+      "R2": 0.9724
+    },
+    {
+      "model": "random_forest",
+      "MAE": 0.0061,
+      "RMSE": 0.0191,
+      "R2": 0.9717
+    },
+    {
+      "model": "ridge_regression",
+      "MAE": 0.0152,
+      "RMSE": 0.0279,
+      "R2": 0.9394
+    },
+    {
+      "model": "historical_average",
+      "MAE": 0.0763,
+      "RMSE": 0.1141,
+      "R2": -0.0113
+    }
+  ]
+}
