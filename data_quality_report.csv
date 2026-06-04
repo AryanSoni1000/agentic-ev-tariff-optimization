@@ -1,0 +1,7 @@
+metric,value
+raw_sessions,18000.0
+clean_sessions,18000.0
+removed_sessions,0.0
+unique_stations,18.0
+total_energy_kwh,361932.29
+total_revenue_baseline,126724.97

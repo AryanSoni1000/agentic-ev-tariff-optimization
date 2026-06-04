@@ -1,0 +1,5 @@
+model,MAE,RMSE,R2
+gradient_boosting,0.0063,0.0189,0.9724
+random_forest,0.0061,0.0191,0.9718
+ridge_regression,0.0152,0.0279,0.9394
+historical_average,0.0763,0.1141,-0.0113

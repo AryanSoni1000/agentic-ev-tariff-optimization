@@ -1,0 +1,13 @@
+metric,value
+baseline_revenue,25496.27
+dynamic_revenue,22386.27
+revenue_gain,-3110.0
+revenue_gain_pct,-12.2
+avg_utilization_before,0.2917
+avg_utilization_after,0.2962
+peak_congestion_reduction_proxy,0.0825
+waiting_time_reduction_proxy,0.0062
+customer_response_rate,0.0045
+utilization_change_pct,1.53
+off_peak_uplift,0.0157
+pricing_efficiency_score,0.0906
